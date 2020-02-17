@@ -1,0 +1,10 @@
+It works on sigmoid function.
+logistic is based on probability.
+we need a hypothesis function or model.(sigmoid)
+goal is to predict the likelihood that Y =1
+output should be categorical nd there must exist a relation btw dependent variables.
+Evaluation metrics:
+    accuracy  (TP+TN/TP+FP+FN+TN)
+    precision (correctly predicted +ve obs to total predicted +ve obs)(TP/TP+FP)
+    Recall     (TP/TP+FN)
+    F-measure  (2*P*R/P+R)

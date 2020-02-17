@@ -1,0 +1,97 @@
+machine learning is think by itself just by training the previous data(a computer program is said to learn from experince wrt to tasks)
+3 types:1. supervised
+        2. unsupervised  
+        3. reinforced(under development)
+what isartifical intelligence,machine learning,and deep learing 
+ARTIFICAL INTELLIGENCE: artifical intellingce (AI) is the science of making things smart( "human intelligence exhibited by machines")
+common cases in AI: . sound detection 
+                    . OBJECT DETECTION
+                    . natural language processing/ sentiment analysis
+                    . creative(like style transfer)
+                    . prediction-(give some inputs,what is expected o/p for unseen examples)
+                    . translation b/w languages
+                    . restoration/transformation
+MACHINE LEARNING: " an approch to achieve AI through s/m that can learn from experience to find patterns is set of data"(ML is hot new thing)
+DEEP LEARNING:"a technique for implementing machine learning".
+classical programming vs machine learning
+classical(inputs- data,rules;output- answers)
+ML(inputs- data,anwers;output-rules)
+
+TYPES OF VARIABLES:(NUMBERS,DATES AND STRING)
+                1. NUMERICAL(MADE OF NUMBERS-AGE,WEIGHT)
+                     * CONTINUOUS(INFINTE OPTIONS- AGE, WEIGHT,AND BLOOD PRESSURE)
+                     * DISCRETE(SHOE SIZE,NO OF CHILDREN)
+                2. CATEGORIAL(MADE OF WORDS- EYECOLOR,GENDER,BLOOD TYPE)
+                     * ORDINAL(DATA HAS A HIERARCHY- PAIN SEVERITY,MOOD)
+                     *NOMIAL(DATA HAS NO HIERARCHY- EYECOLOR,DOG BREED AND BLOOD TYPE)
+                     
+***  MACHINE LEARNING PROCESS:
+         1. GET DATA
+         2. CLEAN,PREPARE & MANIPULATE DATA
+         3. TRAIN MODEL
+         4. TEST DATA
+         5. IMPROVE
+packages for ML in python:
+  * seaborn
+  * matplotlib
+  * scikit-learn
+  * pandas
+  * tensorflow
+  * theano
+  * numpy
+ 
+FEATURES / ATTRIBUTES
+ . FEATURES(AKA attributes) are used to train Ml system. They are the properties of the thing you are gng to learn
+ . choosing useful features can have a big impact on the quality of the system.
+
+HOW ML SYSTEM TRAINED
+ * SUPERVISED LEARNING(CLASSIFICATION ALGORITHM)
+ * SUPERVISED LEARNING(CLUSTERING ALGORITHM)
+ * REINFORCEMENT
+ 
+ 
+MACHINE LEARNING ALGORITHMS:
+ Supervised:
+     *Regression
+           Linear regression
+           logistic regression
+           polynomail regression
+     *Classification
+           >Linear Classifiers
+               Logistic regression
+               Naive Bayes classification
+           >Nearest neighbour
+           >Support vector machine
+           >Decision trees
+           >Random forest
+           
+ Linear regression (relationship should be linear)
+ -train
+ -test
+ -fit
+ -predict
+ -score
+ -coefficient of determination
+Polynomial regression(relationship curve)
+-train
+-test
+-split
+-transform
+-fit
+Ridge,loso,elastic net
+
+
+CLASSIFICATION:
+     binary classification 
+     multi class classification 
+     
+     
+ Evaluation Metrics:
+ -model accuracy
+     TP+TN/TP+FP+FN+TN
+ -precision
+     TP/TP+FP
+ -Recall
+     TP/TP+FN
+ -F measure
+     2*precision*recall/precision+recall
